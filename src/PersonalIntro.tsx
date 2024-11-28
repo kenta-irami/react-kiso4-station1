@@ -1,11 +1,11 @@
 import React from "react";
-import "./PersonalIntro.css"; // CSSファイルのインポート
+import "./PersonalIntro.css";
 
 const PersonalIntro: React.FC = () => {
   return (
     <div className="personal-intro">
       <h1>伊良皆 健太</h1>
-      <p className="occupation">Web制作担当</p>
+      <p className="occupation">Web制作</p>
 
       <p className="description">
         Webライティング＆プログラミングスキルを身につけることが私の目標です。

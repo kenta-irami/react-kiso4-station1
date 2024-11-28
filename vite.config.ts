@@ -6,14 +6,12 @@ export default defineConfig({
   base: "/react-kiso4-station1/",
   plugins: [react()],
   build: {
+    outDir: "dist",
+    assetsDir: "assets",
     rollupOptions: {
-      output: {
-        assetFileNames: "assets/[name].[ext]",
-        chunkFileNames: "assets/[name].[hash].js",
-        entryFileNames: "assets/[name].[hash].js",
+      input: {
+        main: "./index.html",
       },
     },
-    // ソースマップを無効化
-    sourcemap: false,
   },
 });
