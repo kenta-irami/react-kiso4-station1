@@ -1,14 +1,7 @@
 import React from "react";
 import "./PersonalIntro.css";
 import profileImage from "./assets/profile.jpg";
-import {
-  FaWordpress,
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaReact,
-  FaUser,
-} from "react-icons/fa";
+import { FaWordpress, FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
 
 const PersonalIntro: React.FC = () => {
   return (
